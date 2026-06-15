@@ -9,11 +9,13 @@ import {
   CalendarDays,
   TrendingUp,
   Zap,
+  Pen,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const nav = [
   { href: "/", label: "Hook Vault", icon: Flame },
+  { href: "/script", label: "Script", icon: Pen },
   { href: "/analytics", label: "Analytics", icon: BarChart2 },
   { href: "/competitors", label: "Competitor Tracker", icon: Users },
   { href: "/scheduler", label: "Scheduler", icon: Calendar },
